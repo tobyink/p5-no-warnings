@@ -40,6 +40,10 @@ no::warnings - suppress certain warnings for a dynamic scope
 
 =head1 SYNOPSIS
 
+Load the module:
+
+  use no::warnings;
+
 Disable all warnings for a dynamic scope:
 
   my $result = no::warnings sub {
