@@ -3,7 +3,8 @@
 @prefix : <http://ontologi.es/doap-deps#>.
 
 `no-warnings`
-	:runtime-requirement    [ :on "perl 5.010001"^^:CpanId ];
+	:runtime-requirement    [ :on "perl 5.008003"^^:CpanId ];
+	:runtime-requirement    [ :on "match::simple"^^:CpanId ];
 	:test-requirement       [ :on "Test2::V0"^^:CpanId ];
 	:test-requirement       [ :on "Test2::Tools::Spec"^^:CpanId ];
 	:test-requirement       [ :on "Test2::Require::AuthorTesting"^^:CpanId ];
